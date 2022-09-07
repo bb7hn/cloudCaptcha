@@ -132,6 +132,9 @@ if($response->code != 401){
     //user input is invalid
     //do sth
 }
-
+if($response->code ==200){
+    //All is well
+    //register user or do whatever you want
+}
 ?>
 ```
