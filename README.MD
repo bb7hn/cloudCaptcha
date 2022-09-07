@@ -73,7 +73,9 @@ Examples :
 http://yourSite.com/servicePath/?r=100&g=100&b=100
 ```
 - Theme usage
+
 <br/>
+
     Dark (White Text)
     ```html
     http://yourSite.com/servicePath/?theme=dark
@@ -115,14 +117,17 @@ $reponse = json_encode($response);
 if(empty($response)){
     //validation failed 
     //there is a problem with curl or server
+    //do sth
 }
 if($response->code != 406){
     //validation failed 
     //there is a problem with curl request
+    //do sth
 }
 if($response->code != 401){
     //validation failed 
     //user input is invalid
+    //do sth
 }
 
 ?>
