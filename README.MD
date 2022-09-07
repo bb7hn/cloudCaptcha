@@ -76,14 +76,17 @@ http://yourSite.com/servicePath/?r=100&g=100&b=100
 
 <br/>
 
-    Dark (White Text)
-    ```html
-    http://yourSite.com/servicePath/?theme=dark
-    ```
-    Light (Black Text)
-    ```html
-    http://yourSite.com/servicePath/?theme=light
-    ```
+Dark (White Text)
+
+```url
+http://yourSite.com/servicePath/?theme=dark
+```
+
+Light (Black Text)
+
+```url
+http://yourSite.com/servicePath/?theme=light
+```
 # Example Usage For PHP Server Side
 ```php
 <?php
